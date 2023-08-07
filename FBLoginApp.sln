@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FBLoginApp", "FBLoginApp\FBLoginApp.csproj", "{887C85F7-D583-4AA4-8E75-264F82344AB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12043F1E-81C0-472F-B3E9-793B5453A54F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exchange", "Exchange", "{CEEB2A69-5D56-4A71-AFB7-F3D916128E98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Exchange", "MyApp.Exchange\MyApp.Exchange.csproj", "{90147A43-AF72-4256-9801-69A996D6D7C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.ExchangeBus.Kafka", "MyApp.ExchangeBus.Kafka\MyApp.ExchangeBus.Kafka.csproj", "{1FC9C5F5-F792-486C-BB79-D22AF96B9ADB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{B90B8794-A9B9-47A9-B62C-3627BE41D387}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Worker", "Worker", "{7ECAA429-63AF-470E-A9CF-6452EA86987D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.ExchangeDataWorker", "MyApp.ExchangeDataWorker\MyApp.ExchangeDataWorker.csproj", "{A04C2B10-EC0F-40CF-916E-93E19294CDFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{887C85F7-D583-4AA4-8E75-264F82344AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887C85F7-D583-4AA4-8E75-264F82344AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887C85F7-D583-4AA4-8E75-264F82344AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887C85F7-D583-4AA4-8E75-264F82344AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90147A43-AF72-4256-9801-69A996D6D7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90147A43-AF72-4256-9801-69A996D6D7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90147A43-AF72-4256-9801-69A996D6D7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90147A43-AF72-4256-9801-69A996D6D7C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC9C5F5-F792-486C-BB79-D22AF96B9ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC9C5F5-F792-486C-BB79-D22AF96B9ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC9C5F5-F792-486C-BB79-D22AF96B9ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC9C5F5-F792-486C-BB79-D22AF96B9ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A04C2B10-EC0F-40CF-916E-93E19294CDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04C2B10-EC0F-40CF-916E-93E19294CDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04C2B10-EC0F-40CF-916E-93E19294CDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04C2B10-EC0F-40CF-916E-93E19294CDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEEB2A69-5D56-4A71-AFB7-F3D916128E98} = {12043F1E-81C0-472F-B3E9-793B5453A54F}
+		{90147A43-AF72-4256-9801-69A996D6D7C1} = {CEEB2A69-5D56-4A71-AFB7-F3D916128E98}
+		{1FC9C5F5-F792-486C-BB79-D22AF96B9ADB} = {CEEB2A69-5D56-4A71-AFB7-F3D916128E98}
+		{7ECAA429-63AF-470E-A9CF-6452EA86987D} = {B90B8794-A9B9-47A9-B62C-3627BE41D387}
+		{A04C2B10-EC0F-40CF-916E-93E19294CDFD} = {7ECAA429-63AF-470E-A9CF-6452EA86987D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C8CC61E-5125-4B80-BE1C-B1183CACF871}
+	EndGlobalSection
+EndGlobal
